@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Registration Form</title>
+</head>
+
+<style>
+
+    select{
+        border-radius: 19px;    
+    }
+    input{
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+  
+    .reg-form  p{
+        font-size: 15px;
+        color: rgb(16, 16, 40);
+        
+    }
+    .reg-form input{
+        padding: 5px;
+    }
+    .reg-form{
+        text-align: center;
+        size: 100cm;
+        background-image: url(saylani\ copy.png );
+        background-repeat: repeat-y;
+        background-size: 80%;
+        image-rendering: pixelated;
+    }    
+    .reg-form select{
+           width: 47mm;
+           height: 8mm;
+    }
+    .reg-form button{
+       font-size: 15px;   
+       font-weight: bold;
+       margin-top: 10px; 
+       width: 10;
+       padding: 3px;
+       border-radius: 10px;
+    }
+    button{
+        display: block;
+        margin-left: 45vw;
+    }
+    span{
+        color: red;
+    }
+    .contact{
+        font-size: 100%;
+    }
+    </style>
+<body>
+    
+    <h1 class="reg-form">Register</h1>
+
+    <div class="reg-form">
+        
+        
+        <form action="result.html">
+            
+            
+                
+                
+                
+                <P>Select Country<span>*</span>:</P>
+                <select name="Country" id="" required>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="Turkey" >Turkey</option>
+                </select>
+                
+                
+                
+                
+                <p >Select Course Or Event<span>*</span>:</p>
+                <select name="course" id="Select Course Or Event" required>
+                    
+                    <option value="Web And Mobile Application"> W.M.A</option>
+                    <option value="Graphic Designer">Graphic Designer</option>
+                    <option value="Video Editing">Video Editing</option>
+                    
+                </select>
+                
+                
+                <p>Name<span>*</span>:</p>
+                <input type="text" placeholder="Name" required>  
+                
+                <p>Father's Name<span>*</span>:</p>
+                <input type="text" placeholder="Father's Name">
+                
+                
+                <p>Email<span>*</span>:</p>
+                <input type="email" placeholder="Email" required>
+                
+                
+                
+                <p>CNIC<span>*</span>:</p>
+                <input type="text" placeholder="CNIC" required pattern="^\d{13}$">
+                
+                <p>Father's CNIC (optional)</p>
+                <input type="text" placeholder="Father's CNIC">
+                
+                
+                <p>Date Of Birth<span>*</span>:</p>
+                <input type="date" placeholder="Date" required>
+                
+                
+                <p>Select City<span>*</span>:</p>
+                <select name="City" id="Select City" required>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Karachi">Karachi</option>
+                </select>
+                
+                <p>Select Your Computer Proficiency<span>*</span>:</p>
+                <select name="Computer proficiency" id="" required>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Professional">Professional</option>
+                </select>
+                
+                
+                
+                <p>Gender<span>*</span>:</p>
+                <select name="Gender" id="gender" required>
+                    <option value="Gender">Female</option>
+                    <option value="Gender">Male</option>
+                </select>
+                
+                <p>Username<span>*</span>:</p>
+                <input type="text" placeholder="Username" required>
+                
+                <p>password<span>*</span>:</p>
+                <input type="password" placeholder="Password" required pattern= "^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$">
+                
+                
+                <Button>Registration</Button>
+                
+                
+           
+                
+                
+                
+            </div>
+            
+        
+            
+            
+            
+        </form>
+        <a class="contact" href="https://saylaniwelfare.com/en/contact-us#">Contact Us</a>
+        
+        <a class="contact" href="info@SaylaniWelfare.com
+        " style="display: flex;">For Email</a>
+        
+        
+    </body>
+    </html>
